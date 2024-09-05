@@ -1,11 +1,13 @@
-## (Important Please Read !!) 
+# (Important Please Read !!) 
 
 This Web Dev Project was made for BlockSoc Inductions
 
-Note : It takes some time to get the current price of the crypto and sometimes it displays the message "Error Fetching Price". This issue is due to network problems. Some ways to tackle it include :
+## Note : 
+          It takes some time to get the current price of the crypto and sometimes it displays the message "Error Fetching Price". This issue is due to network problems. Some ways to tackle it include :
                 1. Refreshing the page
                 2. Restarting the server
                 3. Making a new live preview
+                
 There is a dynamic piechart below the tables. To view it, you must have atleast one token of any kind.
 
 Now, a general description.
