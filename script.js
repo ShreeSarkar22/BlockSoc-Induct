@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     let cryptoChart;
 
-    // Function to create or update the chart
     function updateChart() {
         const bitcoinBalance = parseFloat(document.getElementById("inr-Bitscoin").textContent);
         const ethereumBalance = parseFloat(document.getElementById("inr-Ethereum").textContent);
@@ -47,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Function to update balance and balance in INR
     function updateBalance(token, operation) {
         let balanceElement = document.getElementById(`balance-${token}`);
         let inrBalanceElement = document.getElementById(`inr-${token}`);
@@ -78,11 +76,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         inputElement.value = '';
 
-        // Update the chart after balance change
         updateChart();
     }
 
-    // Event listeners for Buy buttons
     document.getElementById("buy-Bitscoin-btn").addEventListener("click", function () {
         updateBalance("Bitscoin", "buy");
     });
@@ -95,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
         updateBalance("Binance", "buy");
     });
 
-    // Event listeners for Sell buttons
     document.getElementById("sell-Bitscoin-btn").addEventListener("click", function () {
         updateBalance("Bitscoin", "sell");
     });
@@ -108,6 +103,5 @@ document.addEventListener("DOMContentLoaded", function () {
         updateBalance("Binance", "sell");
     });
 
-    // Initialize the chart when the page loads
     updateChart();
 });
