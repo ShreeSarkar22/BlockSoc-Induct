@@ -103,5 +103,37 @@ document.addEventListener("DOMContentLoaded", function () {
         updateBalance("Binance", "sell");
     });
 
+
+    document.getElementById("buy-Bitscoin").addEventListener("keydown",function(event){
+        if(event.key==="Enter") {
+            document.getElementById('buy-Bitscoin-btn').click();
+        }
+    });
+    document.getElementById("sell-Bitscoin").addEventListener("keydown",function(event){
+        if(event.key==="Enter") {
+            document.getElementById('sell-Bitscoin-btn').click();
+        }
+    });
+    document.getElementById("buy-Ethereum").addEventListener("keydown",function(event){
+        if(event.key==="Enter") {
+            document.getElementById('buy-Ethereum-btn').click();
+        }
+    });
+    document.getElementById("sell-Ethereum").addEventListener("keydown",function(event){
+        if(event.key==="Enter") {
+            document.getElementById('sell-Ethereum-btn').click();
+        }
+    });
+    document.getElementById("buy-Binance").addEventListener("keydown",function(event){
+        if(event.key==="Enter") {
+            document.getElementById('buy-Binance-btn').click();
+        }
+    });
+    document.getElementById("sell-Binance").addEventListener("keydown",function(event){
+        if(event.key==="Enter") {
+            document.getElementById('sell-Binance-btn').click();
+        }
+    });
+
     updateChart();
 });
