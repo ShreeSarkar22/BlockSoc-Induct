@@ -15,16 +15,16 @@
     </section>
     <section id="Second">
         <div class="grid-container">
-            <div class="grid-item head">Crypto</div> <!-- First row, first column -->
+            <div class="grid-item head">Crypto</div>
             <div class="grid-item head">Balance</div>
             <div class="grid-item head">Balance in INR</div>
             <div class="grid-item head">Buy</div>
             <div class="grid-item head">Sell</div>
-            <div class="grid-item head">Value</div>
+            <div class="grid-item head">Value in INR</div>
 
-            <div class="grid-item tokenkanaam">Bitcoin</div> <!-- Second row, first column -->
-            <div class="grid-item tokenkabalance" id="balance-Bitscoin">0</div>
-            <div class="grid-item tokenkabalance" id="inr-Bitscoin">0</div>
+            <div class="grid-item tokenkanaam">Bitcoin</div>
+            <div class="grid-item tokenkabalance" id="balance-Bitscoin">0.00</div>
+            <div class="grid-item tokenkabalance" id="inr-Bitscoin">0.00</div>
             <div class="grid-item tokenkatransaction">
                 <input class="boxkacolor" type="number" id="buy-Bitscoin" placeholder="Buy..." min="1" step="1">
                 <button type="submit" class="pushable b" id="buy-Bitscoin-btn">Buy</button>
@@ -33,11 +33,11 @@
                 <input class="boxkacolor" type="number" id="sell-Bitscoin" placeholder="Sell..." min="1" step="1">
                 <button type="submit" class="pushable b" id="sell-Bitscoin-btn">Sell</button>
             </div>
-            <div class="grid-item tokenkavalue" id="value-Bitscoin">4800000</div>
+            <div class="grid-item tokenkavalue" id="value-Bitscoin"><p id="bitcoin-price"></p></div>
 
-            <div class="grid-item tokenkanaam">Ethereum</div> <!-- Third row, first column -->
-            <div class="grid-item tokenkabalance" id="balance-Ethereum">0</div>
-            <div class="grid-item tokenkabalance" id="inr-Ethereum">0</div>
+            <div class="grid-item tokenkanaam">Ethereum</div> 
+            <div class="grid-item tokenkabalance" id="balance-Ethereum">0.00</div>
+            <div class="grid-item tokenkabalance" id="inr-Ethereum">0.00</div>
             <div class="grid-item tokenkatransaction">
                 <input class="boxkacolor" type="number" id="buy-Ethereum" placeholder="Buy..." min="1" step="1">
                 <button type="submit" class="pushable b" id="buy-Ethereum-btn">Buy</button>
@@ -46,11 +46,11 @@
                 <input class="boxkacolor" type="number" id="sell-Ethereum" placeholder="Sell..." min="1" step="1">
                 <button type="submit" class="pushable b" id="sell-Ethereum-btn">Sell</button>
             </div>
-            <div class="grid-item tokenkavalue" id="value-Ethereum">200000</div>
+            <div class="grid-item tokenkavalue" id="value-Ethereum"><p id="ethereum-price"></p></div>
 
-            <div class="grid-item tokenkanaam">Binance Coin</div> <!-- Fourth row, first column -->
-            <div class="grid-item tokenkabalance" id="balance-Binance">0</div>
-            <div class="grid-item tokenkabalance" id="inr-Binance">0</div>
+            <div class="grid-item tokenkanaam">Binance Coin</div>
+            <div class="grid-item tokenkabalance" id="balance-Binance">0.00</div>
+            <div class="grid-item tokenkabalance" id="inr-Binance">0.00</div>
             <div class="grid-item tokenkatransaction">
                 <input class="boxkacolor" type="number" id="buy-Binance" placeholder="Buy..." min="1" step="1">
                 <button type="submit" class="pushable b" id="buy-Binance-btn">Buy</button>
@@ -59,7 +59,7 @@
                 <input class="boxkacolor" type="number" id="sell-Binance" placeholder="Sell..." min="1" step="1">
                 <button type="submit" class="pushable b" id="sell-Binance-btn">Sell</button>
             </div>
-            <div class="grid-item tokenkavalue" id="value-Binance">43000</div>
+            <div class="grid-item tokenkavalue" id="value-Binance"><p id="binancecoin-price"></div>
         </div>
     </section>
     <section id="Third">
