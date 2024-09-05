@@ -130,3 +130,7 @@ img{
     height: 20px;
     margin-right: 5px;
 }
+
+li{
+    color: rgba(0, 0, 0, 0.351);
+}
