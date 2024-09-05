@@ -1,4 +1,4 @@
-# BlockSoc-Induct
+# (Important Please Read !!) 
 
 This Web Dev Project was made for BlockSoc Inductions
 
